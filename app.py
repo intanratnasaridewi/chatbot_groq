@@ -107,10 +107,10 @@ with st.sidebar:
     st.write("This is a simple chat application using MySQL. Connect to the database and start chatting.")
     
     st.text_input("Host", value="localhost", key="Host")
-    st.text_input("Port", value="5432", key="Port")
-    st.text_input("User", value="postgres", key="User")
-    st.text_input("Password", type="password", value="intan271001", key="Password")
-    st.text_input("Database", value="db_pegawai", key="Database")
+    st.text_input("Port", value="xxxx", key="Port")
+    st.text_input("User", value="xxxxx", key="User")
+    st.text_input("Password", type="password", value="xxxxxx", key="Password")
+    st.text_input("Database", value="xxxxx", key="Database")
     
     if st.button("Connect"):
         with st.spinner("Connecting to database..."):
