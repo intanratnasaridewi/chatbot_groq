@@ -1,4 +1,4 @@
-from dotenv import load_dotenv
+
 from langchain_core.messages import AIMessage, HumanMessage
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.runnables import RunnablePassthrough
@@ -95,8 +95,6 @@ if "chat_history" not in st.session_state:
     st.session_state.chat_history = [
       AIMessage(content="Hello! Aku Asistenmu!"),
     ]
-
-load_dotenv()
 
 st.set_page_config(page_title="Warehouse Chat", page_icon=":speech_balloon:")
 
